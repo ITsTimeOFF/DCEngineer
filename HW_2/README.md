@@ -4,7 +4,7 @@ OSPF-маршрутизация
 
 В схеме **CLOS** собраны 2 `Spine` и 3 `Leaf` коммутатора.
 
-![Схема](CLOS.png "CLOS-топология")
+![Схема](../HW_1/CLOS.png "CLOS-топология")
 
 
 На каждом устройстве настроен OSPF:  `Area` **0.0.0.0**, `Instance` **100**, `RouterID` назначен идентичный IP-адресу **Loopback интерфейса**, `passive-interface` **default**, Loopback-интерфесы добавлены в `Area` **0.0.0.0**
