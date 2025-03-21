@@ -15,3 +15,21 @@ OSPF-маршрутизация
 
 На `Spine`-коммутаторах на **ETHERNET[1-3]**: **отключен** `passive-interface`, добавлена `Area` **0.0.0.0**, `network` **point-to-point** 
 На `Leaf`-коммутаторах на **ETHERNET[1-3]**: **отключен** `passive-interface`, добавлена `Area` **0.0.0.0**, `network` **point-to-point** 
+
+
+
+Проверка работы
+============
+Таблицы маршрутизации:
+`LEAF`
+![LEAF](LEAF1_ROUTES.jpg "LEAF таблица маршрутизации")
+
+`SPINE`
+![SPINE](SPINE1_ROUTES.jpg "SPINE таблица маршрутизации")
+
+Проверка доступности устройств по **Loopback**-адресам:
+![PING](PING.jpg "ICMP")
+
+READY!
+============
+
