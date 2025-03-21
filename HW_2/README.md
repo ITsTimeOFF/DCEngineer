@@ -13,7 +13,7 @@ OSPF-маршрутизация
 
 
 На `Spine`-коммутаторах на **ETHERNET[1-3]**: **отключен** `passive-interface`, добавлена `Area` **0.0.0.0**, `network` **point-to-point** 
-На `Leaf`-коммутаторах на **ETHERNET[1-3]**: **отключен** `passive-interface`, добавлена `Area` **0.0.0.0**, `network` **point-to-point** 
+На `Leaf`-коммутаторах на **ETHERNET[1-2]**: **отключен** `passive-interface`, добавлена `Area` **0.0.0.0**, `network` **point-to-point** 
 
 
 
