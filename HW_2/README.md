@@ -9,7 +9,6 @@
 OSPF-маршрутизация
 ============
 На каждом устройстве настроен OSPF:  `Area` **0.0.0.0**, `Instance` **100**, `RouterID` назначен идентичный IP-адресу **Loopback интерфейса**, `passive-interface` **default**, Loopback-интерфесы добавлены в `Area` **0.0.0.0**
-![OSPF](OSPF.png "OSPF-маршрутизация")
 
 
 
